@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+.header {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 10px 5px;
+}
+
+.header h2 {
+  margin: 0 auto;
+}
+
+.main {
+  padding: 10px;
+}
+
+.form-field {
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  width: 320px;
+  margin-top: 5px;
+  padding: 0 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input {
+  height: 32px;
+}
+
+button#submit {
+  font-size: 14px;
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}

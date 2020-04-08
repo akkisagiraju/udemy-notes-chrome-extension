@@ -3,7 +3,7 @@
   "name": "YouTube Notes",
   "description": "Take notes while watching YouTube videos",
   "version": "0.1",
-  "permissions": ["activeTab"],
+  "permissions": ["activeTab", "tabs"],
   "content_scripts": [
     {
       "matches": [
