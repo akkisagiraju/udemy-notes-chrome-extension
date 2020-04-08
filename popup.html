@@ -10,7 +10,7 @@
       <h2>YouTube Notes</h2>
     </section>
     <section class="main">
-      <form>
+      <form id="notesForm">
         <div class="form-field">
           <label for="url">Video URL:</label>
           <input name="url" id="url" type="text" />
@@ -20,12 +20,13 @@
           <input name="timestamp" id="timestamp" type="text" />
         </div>
         <div class="form-field">
-          <label for="notes">Notes:</label>
-          <textarea name="notes" id="notes" cols="35" rows="10"></textarea>
+          <label for="note">Notes:</label>
+          <textarea name="note" id="note" cols="35" rows="10"></textarea>
         </div>
         <button id="submit" type="submit">Save</button>
       </form>
     </section>
+    <script src="axios.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
