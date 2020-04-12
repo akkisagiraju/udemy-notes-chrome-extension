@@ -42,20 +42,4 @@ notesForm.onsubmit = (e) => {
     .catch(function (error) {
       console.log(error);
     });
-
-  // const response = await fetch('http://localhost:3001/api/notes', {
-  //   method: 'POST',
-  //   body: {
-  //     url: e.target.url.value,
-  //     timestamp: e.target.timestamp.value,
-  //     note: e.target.note.value,
-  //   },
-  // });
-
-  // try {
-  //   const result = await response.json();
-  //   console.log(result);
-  // } catch (error) {
-  //   console.log(error);
-  // }
 };
